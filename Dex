@@ -5778,7 +5778,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Functions
 function httpGet(url)
-	return nil
+	return game:HttpGet(url)
 end
 
 -- RbxApi Stuff
